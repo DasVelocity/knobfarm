@@ -1,8 +1,4 @@
-RandomStuff:AddCheckbox("AutoKnob", {
-    Text = "Knob Farm",
-    Default = false,
-    Callback = function(Value)
-        local Players = game:GetService("Players")
+local Players = game:GetService("Players")
         local RunService = game:GetService("RunService")
         local PathfindingService = game:GetService("PathfindingService")
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -286,4 +282,5 @@ RandomStuff:AddCheckbox("AutoKnob", {
             notify("AutoKnob disabled.", 2)
         end
     end
-})
+
+
