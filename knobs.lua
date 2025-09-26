@@ -199,6 +199,7 @@ local function attachToCharacter(character)
             end
         end
 
+        -- main room handling
         if workspace.CurrentRooms and workspace.CurrentRooms:FindFirstChild(tostring(latestRoom.Value)) then
             local room = workspace.CurrentRooms[tostring(latestRoom.Value)]
             if room then
